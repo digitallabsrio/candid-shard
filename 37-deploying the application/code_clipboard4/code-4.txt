@@ -1,0 +1,2 @@
+kubectl --namespace go-demo-8 apply --filename k8s/health/app/
+kubectl --namespace go-demo-8 rollout status deployment go-demo-8

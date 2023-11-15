@@ -1,0 +1,4 @@
+gcloud container clusters \
+    resize $CLUSTER_NAME \
+    --zone us-east1-b \
+    --num-nodes=3

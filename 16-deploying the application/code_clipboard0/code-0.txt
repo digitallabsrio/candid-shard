@@ -1,0 +1,1 @@
+git clone https://github.com/vfarcic/go-demo-8.git

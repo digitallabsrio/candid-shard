@@ -1,0 +1,1 @@
+diff k8s/chaos/settings.yaml k8s/chaos/settings-failure.yaml

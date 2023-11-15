@@ -1,0 +1,1 @@
+kubectl --namespace chaos delete --filename k8s/chaos/periodic-fast.yaml

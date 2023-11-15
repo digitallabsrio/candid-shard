@@ -1,0 +1,3 @@
+cd ..
+kubectl delete namespace go-demo-8
+kubectl delete namespace chaos

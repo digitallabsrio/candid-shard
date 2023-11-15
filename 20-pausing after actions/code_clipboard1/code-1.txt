@@ -1,0 +1,1 @@
+diff chaos/terminate-pod-ssh.yaml chaos/terminate-pod-pause.yaml

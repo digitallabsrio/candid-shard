@@ -1,0 +1,1 @@
+export NODE_LABEL="beta.kubernetes.io/os=linux"

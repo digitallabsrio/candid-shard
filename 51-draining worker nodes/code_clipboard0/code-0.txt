@@ -1,0 +1,1 @@
+cat chaos/node-drain.yaml

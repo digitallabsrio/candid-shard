@@ -1,0 +1,2 @@
+cd go-demo-8
+git pull

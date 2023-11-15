@@ -1,0 +1,2 @@
+kubectl create namespace go-demo-8
+cat k8s/terminate-pods/app/*

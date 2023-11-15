@@ -1,0 +1,4 @@
+istioctl manifest apply \
+    --set values.grafana.enabled=true \
+    --set values.kiali.enabled=true \
+    --skip-confirmation

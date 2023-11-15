@@ -1,0 +1,1 @@
+kubectl --namespace go-demo-8 describe configmap chaostoolkit-experiments

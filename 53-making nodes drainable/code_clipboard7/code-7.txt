@@ -1,0 +1,3 @@
+kubectl --namespace istio-system \
+    patch hpa istio-ingressgateway \
+    --patch '{"spec": {"minReplicas": 2}}'

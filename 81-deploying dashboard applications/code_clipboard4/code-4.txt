@@ -1,0 +1,1 @@
+kubectl --namespace istio-system rollout status deployment grafana

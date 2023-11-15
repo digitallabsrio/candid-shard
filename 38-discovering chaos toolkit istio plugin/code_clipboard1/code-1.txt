@@ -1,0 +1,2 @@
+chaos discover chaostoolkit-istio
+cat discovery.json

@@ -1,0 +1,1 @@
+cat k8s/chaos/settings.yaml

@@ -1,0 +1,4 @@
+while true; do 
+  curl -i -H "Host: repeater.acme.com" "http://$INGRESS_HOST?addr=http://go-demo-8/demo/person"
+  sleep 1
+done

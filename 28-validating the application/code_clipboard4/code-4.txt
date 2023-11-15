@@ -1,0 +1,2 @@
+kubectl apply --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/provider/cloud-generic.yaml
+export INGRESS_HOST=$(kubectl --namespace ingress-nginx get service ingress-nginx --output jsonpath="{.status.loadBalancer.ingress[0].ip}")

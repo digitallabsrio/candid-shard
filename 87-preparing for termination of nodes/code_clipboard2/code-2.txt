@@ -1,0 +1,1 @@
+kubectl --namespace chaos apply --filename k8s/chaos/experiments-node.yaml

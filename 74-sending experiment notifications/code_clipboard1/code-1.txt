@@ -1,0 +1,4 @@
+cat k8s/chaos/settings.yaml \
+    | sed -e "s|@||g" \
+    | kubectl --namespace go-demo-8 \
+    apply --filename -

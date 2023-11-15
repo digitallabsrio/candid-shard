@@ -1,0 +1,6 @@
+kubectl --namespace go-demo-8 \
+    run siege \
+    --image yokogawa/siege \
+    --generator run-pod/v1 \
+    -it --rm \
+    -- --concurrent 50 --time 20S "http://go-demo-8"

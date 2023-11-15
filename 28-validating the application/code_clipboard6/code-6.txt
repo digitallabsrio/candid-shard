@@ -1,0 +1,1 @@
+echo $INGRESS_HOST

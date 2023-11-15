@@ -1,0 +1,1 @@
+kubectl --namespace go-demo-8 apply --filename k8s/chaos/experiments.yaml

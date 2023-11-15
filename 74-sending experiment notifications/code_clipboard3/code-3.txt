@@ -1,0 +1,1 @@
+diff k8s/chaos/periodic.yaml k8s/chaos/periodic-slack.yaml

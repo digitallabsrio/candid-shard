@@ -1,0 +1,1 @@
+kubectl apply --filename https://raw.githubusercontent.com/kubernetes/ingress-nginx/nginx-0.27.0/deploy/static/mandatory.yaml

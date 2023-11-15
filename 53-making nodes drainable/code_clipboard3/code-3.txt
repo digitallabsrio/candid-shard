@@ -1,0 +1,8 @@
+eksctl get nodegroup --cluster $CLUSTER_NAME
+
+export NODE_GROUP=[...] # Replace `[...]` with the node group
+
+eksctl scale nodegroup \
+    --cluster=$CLUSTER_NAME \
+    --nodes 3 \
+    $NODE_GROUP

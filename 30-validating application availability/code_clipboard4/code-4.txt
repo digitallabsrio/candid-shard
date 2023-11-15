@@ -1,0 +1,1 @@
+kubectl apply --namespace go-demo-8 --filename k8s/health/hpa.yaml

@@ -1,0 +1,2 @@
+kubectl create namespace go-demo-8
+kubectl label namespace go-demo-8 istio-injection=enabled

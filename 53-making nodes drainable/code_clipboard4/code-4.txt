@@ -1,0 +1,12 @@
+az aks show \
+    --resource-group chaos \
+    --name chaos \
+    --query agentPoolProfiles
+
+export NODE_GROUP=[...] # Replace `[...]` with the `name` (e.g., `nodepool1`)
+
+az aks scale \
+    --resource-group chaos \
+    --name chaos \
+    --node-count 3 \
+    --nodepool-name $NODE_GROUP

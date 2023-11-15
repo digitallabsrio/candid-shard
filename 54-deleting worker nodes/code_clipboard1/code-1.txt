@@ -1,0 +1,1 @@
+diff chaos/node-uncordon.yaml chaos/node-delete.yaml
